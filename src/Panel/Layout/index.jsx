@@ -12,8 +12,9 @@ import { BsFillBellFill, BsSearch } from "react-icons/bs";
 import Sidebar from "../Components/SideBar";
 import { useCustomDispach } from "../../Hooks/useCustomDispach";
 import { useSelector } from "react-redux";
-import wf from "../../assets/images/shahrdari.png";
+import me from "../../assets/images/me.jpg";
 import { useOutsideAlerter } from "../../Hooks/useOutSideRef";
+
 function Layout() {
   const [drawer, setDrawer] = useState(true);
   const { handler } = useCustomDispach({ redirect: "/" });
@@ -85,6 +86,15 @@ function Layout() {
                       setShowDropDown(prev => !prev);
                     }}
                   >
+                    <img
+                      src={me}
+                      style={{
+                        width: "20px",
+                        height: "20px",
+                        borderRadius: "50%",
+                        marginLeft: "5px",
+                      }}
+                    />
                     {user.fullname}
                     <AiFillCaretDown color="#A0A5BA" />
                   </a>

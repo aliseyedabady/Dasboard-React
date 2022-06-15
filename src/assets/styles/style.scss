@@ -257,3 +257,19 @@ td {
   left: 10px !important;
   top: calc(26% - 0.7em) !important;
 }
+
+.card-dashboard {
+  background-color: $current_white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 10px;
+  align-items: stretch;
+  p {
+    color: $gray;
+    font-size: 13px;
+  }
+  .dot {
+    color: $gray;
+  }
+}
