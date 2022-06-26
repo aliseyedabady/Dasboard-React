@@ -17,7 +17,7 @@ function index() {
                 height: "60px",
                 borderRadius: "50%",
               }}
-              className="d-flex justify-content-around align-items-center"
+              className="d-flex justify-content-around align-items-center mb-2"
             >
               <FaUserFriends size={30} />
             </div>
@@ -35,7 +35,7 @@ function index() {
                 height: "60px",
                 borderRadius: "50%",
               }}
-              className="d-flex justify-content-around align-items-center"
+              className="d-flex justify-content-around align-items-center mb-2"
             >
               <FaMoneyCheck size={30} />
             </div>
@@ -53,7 +53,7 @@ function index() {
                 height: "60px",
                 borderRadius: "50%",
               }}
-              className="d-flex justify-content-around align-items-center"
+              className="d-flex justify-content-around align-items-center mb-2"
             >
               <FiBox size={30} />
             </div>
@@ -71,7 +71,7 @@ function index() {
                 height: "60px",
                 borderRadius: "50%",
               }}
-              className="d-flex justify-content-around align-items-center"
+              className="d-flex justify-content-around align-items-center mb-2"
             >
               <GiSellCard size={30} />
             </div>

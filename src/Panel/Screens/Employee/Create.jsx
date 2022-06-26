@@ -5,7 +5,7 @@ function Create() {
   return (
     <BoxShadow style={{ padding: "10px", marginTop: "20px" }}>
       <Form
-        title={"ثبت کارمند"}
+        title={"ثبت کاربر"}
         elements={{
           btnName: "ایجاد کارمند",
           url: "/realperson/create",

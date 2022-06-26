@@ -10,7 +10,7 @@ function List() {
           className="link btn btn-primary text-white"
           to={"/Employees/create"}
         >
-          ایجاد کارمند
+          ایجاد کاربران{" "}
         </Link>
       </div>
       <Table
@@ -22,7 +22,7 @@ function List() {
           },
         ]}
         route="/realperson/list"
-        title={"کارمندان"}
+        title={"کاربران"}
         elements={[
           {
             name: "نام",

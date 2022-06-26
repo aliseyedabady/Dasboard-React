@@ -143,9 +143,11 @@ function Layout() {
             </div>
           </nav>
           <div
-            className="container-fluid "
+            className="container-fluid"
             style={{
               backgroundColor: "#F5F6FA",
+              paddingTop: "10px",
+              height: "100vh",
             }}
           >
             <Content />

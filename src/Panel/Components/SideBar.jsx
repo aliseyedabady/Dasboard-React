@@ -7,7 +7,11 @@ function SideBar() {
   return (
     <div>
       <div>
-        <h4 className="m-2 mx-3">داشبورد</h4>
+        <Link className="link" to={"/dashboard"}>
+          <span style={{ fontSize: "20px" }} className="m-2 mx-3">
+            داشبورد
+          </span>
+        </Link>
       </div>
       <NesRoute routes={AdminRoutes} />
     </div>

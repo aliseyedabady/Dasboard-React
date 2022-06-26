@@ -1,5 +1,8 @@
 const initialState = {
-  user: JSON.parse(localStorage.getItem("user")) || null,
+  user: JSON.parse(localStorage.getItem("user")) || {
+    username: "aliseyedabady",
+    mobile: "09367360561",
+  },
 };
 
 const reducers = (state = initialState, action) => {

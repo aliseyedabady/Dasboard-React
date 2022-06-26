@@ -85,15 +85,17 @@ function App() {
 const AppSrv = () => {
   const { user } = useSelector(state => state);
   const Middleware = () => {
-    if (user) {
-      return <Panel />;
-    } else {
-      return (
-        <Routes>
-          <Route path="/" element={<Login />} />
-        </Routes>
-      );
-    }
+    return <Panel />;
+
+    // if (user) {
+    //   return <Panel />;
+    // } else {
+    //   return (
+    //     <Routes>
+    //       <Route path="/" element={<Login />} />
+    //     </Routes>
+    //   );
+    // }
   };
   return Middleware();
 };
